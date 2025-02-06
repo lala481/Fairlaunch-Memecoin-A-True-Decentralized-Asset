@@ -1,12 +1,13 @@
-# A Fairlaunch Memecoin
+# 🚀 Fairlaunch Memecoin: A True Decentralized Asset  
 
-This ERC20 token is based on the OpenZeppelin library. It deploys to a network with Uniswap v3 and sets up a liquidity pool depositing the entire supply in to a single sided position.
+This ERC-20 token is built using the OpenZeppelin library. It deploys on a network with Uniswap v3 and initializes a liquidity pool, depositing the entire supply into a single-sided position.  
 
-This creates a permissionless digital asset with no owner privilidges and equal rights between all parties. Everyone has the same access to the asset on Uniswap to buy/sell and speculate as they see fit.
+This ensures **a fully permissionless digital asset** with **no owner privileges**—everyone has equal rights and access on Uniswap to buy, sell, and speculate freely.  
 
-Full tutorial at https://jamesbachini.com
+## 🔧 Deployment  
+
+Run the following commands to test and deploy on the Mumbai network:  
 
 ```shell
 npx hardhat test
 npx hardhat run scripts/deploy.js --network mumbai
-```
